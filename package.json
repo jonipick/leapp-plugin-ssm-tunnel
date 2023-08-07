@@ -1,14 +1,16 @@
 {
-  "name": "example-plugin",
-  "author": { 
-    "name": "Your Author name.surname",
-    "email": "Your email" 
+  "name": "ssm-tunnel",
+  "author": {
+    "name": "pickjonathan",
+    "email": "pickjonathan@esh.com"
   },
-  "version": "Your semver version here e.g. 1.0.0",
-  "description": "Your plugin description here",
+  "version": "0.0.1",
+  "description": "SSM Tunnel to help you connect to your resources in private subnets via SSM",
   "keywords": [
     "leapp-plugin",
-    "Add other tags here..."
+    "aws",
+    "ssm-tunnel",
+    "tunnel"
   ],
   "leappPlugin": {
     "supportedOS": [
@@ -19,15 +21,14 @@
       "awsIamRoleChained",
       "awsSsoRole",
       "awsIamUser",
-      "aws",
-      "azure"
+      "aws"
     ]
   },
   "scripts": {
     "build": "webpack --config webpack.config.js"
   },
   "files": [
-    "plugin.js", 
+    "plugin.js",
     "icon.png"
   ],
   "license": "MPL",
